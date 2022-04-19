@@ -24,7 +24,7 @@ const server = http.createServer((req,res)=>{
     res.end(data)
     })
 
-    server.listen(port,()=>{console.log('Server running at porty' port')
+    server.listen(port,()=>{console.log('Server running at porty'+ {port}')
     })
 })
 // The function must read a file located at `./www/index.html` and do some stuff with it.
