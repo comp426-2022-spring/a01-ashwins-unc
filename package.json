@@ -1,0 +1,27 @@
+{
+  "name": "ashwin-webserver",
+  "version": "0.0.1",
+  "description": "server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a01-ashwins-unc.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "node"
+  ],
+  "author": "Ashwin Yerramsetty",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a01-ashwins-unc/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a01-ashwins-unc#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
