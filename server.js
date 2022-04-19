@@ -14,7 +14,7 @@ const port=args.port||process.env.PORT || 3000
 // Use the documentation for the Node.js `fs` module. 
 fs.readFile("./www/index.html", "utf8", (err,data) => {
     if (err){
-        console.
+        console.error(err)
         return 
         process.exit(1)
     }
