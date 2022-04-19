@@ -20,11 +20,11 @@ fs.readFile("./www/index.html", "utf8", (err,data) => {
     }
 const server = http.createServer((req,res)=>{
     res.statusCode=200
-    set.setHeader('Content-Type', 'text/ht
+    set.setHeader('Content-Type', 'text/html')
     res.end(data)
     })
 
-    server.listen(port,()=>{console.log('Server running at port' +(port)
+    server.listen(port,()=>{console.log('Server running at port' +{port)')
     })
 })
 // The function must read a file located at `./www/index.html` and do some stuff with it.
